@@ -5,6 +5,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "",
+  "files": [
+    "dist/*",
+    "src/index.ts",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsc && rollup -c",
     "lint": "eslint --ext js,ts .",
