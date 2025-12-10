@@ -17,7 +17,9 @@
     "preinstall": "yarn dlx only-allow yarn",
     "build": "tsc && rollup -c",
     "lint": "eslint --ext js,ts .",
-    "test": "jest"
+    "test": "jest",'
+    "release": "release-it --config release-it.config.js",
+    "release:publish": "yarn publish"
   },
   "devDependencies": {
     "@ca-tools-front/prettier-config": "^7.0.3",
