@@ -48,7 +48,8 @@
       "ts-jest": {
         "tsconfig": "src/__tests__/tsconfig.json"
       }
-    }
+    },
+    "collectCoverage": true
   },
   "publishConfig": {
     "registry": "http://npm.prod.contaazul.local"
