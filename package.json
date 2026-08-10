@@ -1,6 +1,6 @@
 {
   "name": "@contaazul/sanitize-url",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "A url sanitizer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
